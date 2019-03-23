@@ -1,0 +1,27 @@
+@import 'variables';
+
+.personajes {
+    grid-area: personajes;
+    padding: $secciones-padding;
+    margin-bottom:$secciones-margin-bottom;
+    border-right-style:$secciones-border-right-style; 
+    border-right-color: red;
+
+    .color {
+        background-color: red;
+        height: $h2-height; 
+        color:$h2-color;
+        padding: $h2-padding;
+    }
+}
+
+.personajes {
+    
+    ul {
+         margin: 15px 0;
+
+        li {
+            padding: 5px 0;
+        }
+    }
+} 

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../Imagenes/back2.jpeg);
+  background-size: 100% 100%;
+  background-attachment: fixed; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 300px;
+  grid-template-areas: "titulo titulo titulo" "personajes casting rodaje";
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  background-color: white; }
+
+.encabezado {
+  grid-area: titulo;
+  display: grid;
+  justify-content: flex-end;
+  color: white;
+  background-image: url(../Imagenes/back1.jpg);
+  background-position: center;
+  margin: 15px; }
+  .encabezado h1 {
+    padding: 15px; }
+    .encabezado h1 span {
+      color: red; }
+
+.personajes {
+  grid-area: personajes;
+  padding: 0 20px;
+  margin-bottom: 125px;
+  border-right-style: dotted;
+  border-right-color: red; }
+  .personajes .color {
+    background-color: red;
+    height: 40px;
+    color: white;
+    padding: 5px 10px; }
+
+.personajes ul {
+  margin: 15px 0; }
+  .personajes ul li {
+    padding: 5px 0; }
+
+.casting {
+  grid-area: casting;
+  padding: 0 20px;
+  margin-bottom: 125px;
+  border-right-style: dotted;
+  border-right-color: green; }
+  .casting h2 {
+    background-color: blue;
+    height: 40px;
+    color: white;
+    padding: 5px 10px; }
+    .casting h2 p {
+      margin-top: 15px; }
+
+.rodaje {
+  grid-area: rodaje;
+  padding: 0 20px;
+  width: 100%; }
+  .rodaje .color3 {
+    background-color: green;
+    height: 40px;
+    color: white;
+    padding: 5px 10px; }
+  .rodaje p {
+    margin-top: 15px; }

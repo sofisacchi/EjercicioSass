@@ -1,0 +1,23 @@
+@import 'variables';
+
+.casting {
+    grid-area: casting;
+    padding:$secciones-padding;
+    margin-bottom: $secciones-margin-bottom;
+    border-right-style: $secciones-border-right-style;
+    border-right-color: green;
+
+
+        h2 {
+
+            background-color: blue;
+            height: $h2-height;
+            color: $h2-color;
+            padding: $h2-padding;
+
+
+            p {
+                margin-top: $p-margin-top;
+            }
+        }    
+    }    

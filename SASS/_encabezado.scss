@@ -1,0 +1,18 @@
+
+.encabezado {
+    grid-area: titulo;
+    display: grid;
+    justify-content: flex-end;
+    color: white;
+    background-image: url(../Imagenes/back1.jpg);
+    background-position: center;
+    margin: 15px;
+
+        h1 {
+            padding: 15px;
+
+            span {
+                color: red;
+            }
+        }
+}

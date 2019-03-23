@@ -1,0 +1,15 @@
+.contenedor {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 300px;
+    grid-template-areas: "titulo titulo titulo"
+                        "personajes casting rodaje";  
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    background-color: white;
+
+}
+
+

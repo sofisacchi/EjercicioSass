@@ -1,0 +1,19 @@
+@import 'variables';
+
+.rodaje {
+    grid-area: rodaje;
+    padding: $secciones-padding;
+    width: 100%;
+
+    .color3 {
+        background-color: green;
+        height: $h2-height;
+        color: $h2-color;
+        padding: $h2-padding;
+    }
+
+    p {
+            margin-top: $p-margin-top;
+    }
+
+}
